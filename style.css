@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+*{
+    /* font-family:'sofia',cursive; */
+    font-family: cursive;
+    font-weight: 100;
+}
+body {
+    padding:1em;
+    margin:0px;
+    background-color:rgb(77, 77, 77);
+    overflow-x:hidden;
+}
+.box{
+    background-color:black;
+    color:white;
+    padding:20px 10px;
+    box-sizing: border-box;
+    border-radius:10px;
+    box-shadow: -6px 10px 10px #0009;
+    position:relative;
+    margin-bottom:40px;
+}
+header h2 {
+    text-align: center;
+    margin:auto;
+}
+header a{
+    display:inline;
+    color:white;
+    text-decoration:none;
+}
+header li{
+    display:inline;
+    margin:0px 20px;
+    list-style-type: none;
+}
+header *{
+    display: inline;
+}
+header ul {
+    position:absolute;
+    right:0px;
+    top:15px;
+}
+header a:hover{
+    text-shadow: -3px 5px 5px #fff9;
+}
+.box p
+{
+    text-align-last: center;
+    word-break: keep-all;
+    hyphens: auto;
+}
+.box h2{
+    text-decoration:underline solid #2225;
+}
+
+/* header over */
+/* bulb start */
+#bulb {
+    transform: rotate(215deg);
+    position:fixed;
+    font-size:50px;
+    top:-20px;
+    right:-20px;
+    cursor: default;
+    z-index: 999;
+}
+#bulb:hover{
+    filter: brightness(300%);
+    text-shadow: 0px 0px 200px rgb(255, 217, 0),0 0 100px gold,0 0 50px gold,0 0 20px gold;
+}
+/* bulb over */
+
+/* footer */
+footer {
+    font-family:system-ui;
+    background-color:black;
+    border-top: 3px solid grey;
+    width:100%;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow:-6px 15px 15px #0007,-6px 15px 10px #0005;
+    color:white;
+    box-sizing: border-box;
+    padding:10px;
+}
+footer div {
+    margin: 0px;
+    padding:10px 20px;
+    width:45%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.footer-connect {
+    display:block;
+    padding:3px 10px;
+    border:#f005 1px dashed;
+    margin:10px auto;
+    border-radius: 5px;
+    text-align:center;
+    max-width: max-content;
+    text-decoration: none;
+    color:#fff9;
+}
+.footer-connect:hover {
+    border-color: red;
+    color:white;
+}
+.footer-text {
+    color:grey;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+}
+#s{
+    text-align:center;
+}
+#content{
+    width:100% !important;
+}
+/* misc classes */
+.source {
+    position:absolute;
+    bottom:5px;
+    right:5px;
+}
+.source a{
+    width:0px;
+    overflow:hidden;
+    color:white;
+}
+.up {
+    position:fixed;
+    right:40px;
+    bottom:40px;
+    background-color:black;
+    color:white;
+    padding: 10px;
+    border-radius: 3px;
+    cursor:default;
+}
+.up:hover {
+    color:black;
+    background-color:white;
+    transition:background-color linear 1s;
+    text-shadow: -2px 2px 5px #0007;
+    box-shadow:-4px 4px 10px #0005;
+}
